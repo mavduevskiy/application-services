@@ -26,6 +26,8 @@ Use the template below to make assigning a version number during the release cut
 - Databases which are detected as being corrupt as they are opened will be deleted and re-created.
 
 ## Nimbus
+### What's changed
+- The DTO changed to remove the `probeSets` and `enabled` fields that were previously unused. ([#4482](https://github.com/mozilla/application-services/pull/4482))
 
 ### What's New
 
